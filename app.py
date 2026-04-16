@@ -3,7 +3,11 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load model
-model = load_model("ann_model.h5")
+import os
+from tensorflow.keras.models import load_model
+
+model_path = os.path.join(os.path.dirname(_file_), "ann_model.h5")
+model = load_model(model_path)
 
 st.title(" Bank Churn Prediction")
 
