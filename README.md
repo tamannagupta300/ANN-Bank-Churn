@@ -1,5 +1,6 @@
 # Bank Churn Prediction using ANN (Sigmoid)
 
+
 ## Project Overview
 This project predicts whether a bank customer will churn (leave the bank) using an Artificial Neural Network with a sigmoid activation function.
 
@@ -25,3 +26,7 @@ This project predicts whether a bank customer will churn (leave the bank) using 
 ```bash
 pip install -r requirements.txt
 python ann_bank_churn_sigmoid.py
+
+## Accuracy
+85%
+
