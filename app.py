@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 # Load model
 model = load_model("ann_model.h5")
 
-st.title("🏦 Bank Churn Prediction")
+st.title(" Bank Churn Prediction")
 
 # Inputs
 credit_score = st.number_input("Credit Score")
