@@ -4,8 +4,6 @@ from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
 from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
 data = pd.read_csv("Artificial_Neural_Network_Case_Study_data.csv")
 print(data.head())
 print(data.shape)
